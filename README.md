@@ -10,5 +10,5 @@ Below are the meanings of each column in the data table:
 
 * Subjects: Unique identifier for the person who took part in the experiment
 * Activities: Different physical activities that the subject did, for which the gyroscope and accelerometer readings were taken. Values possible: LAYING, SITTING, STANDING, WALKING, WALKING_UPSTAIRS and WALKING_DOWNSTAIRS
-* All remaining columns: These are same as the features mentioned in the original datase. Please refer to the README.txt file in the UCI data. One difference is that for a subject-activity combination, multiple rows are combined into one, resulting in the feature values being the mean of all the feature measurements for that subject-activity combination. Also note that these values were originally normalized in the range (-1, 1).
+* All remaining columns: This is a subset of the features mentioned in the original datase, with only mean and standard deviation columns selected. The meaning of the column labels remain the same as in the original data. Please refer to the README.txt file in the UCI data. One difference is that for a subject-activity combination, multiple rows are combined into one, resulting in the feature values being the mean of all the feature measurements for that subject-activity combination. Also note that these values were originally normalized in the range (-1, 1).
 
